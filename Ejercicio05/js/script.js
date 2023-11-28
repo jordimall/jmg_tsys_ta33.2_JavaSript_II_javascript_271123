@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let valor = comprobarNumero(
         prompt("Introduce el número que quieres pasar a binario"),
     );
+    
     while (isNaN(valor)) {
         valor = comprobarNumero(prompt("Has de introducir un número"));
     }
