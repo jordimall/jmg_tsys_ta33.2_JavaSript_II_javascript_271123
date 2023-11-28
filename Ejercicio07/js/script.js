@@ -38,8 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
         );
     }
 
-    console.log(simbolo);
-
     alert(
         `La conversion de ${valor}€ es ${conversor(valor, simbolo)} ${simbolo}`,
     );
