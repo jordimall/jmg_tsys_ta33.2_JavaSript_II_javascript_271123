@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="./js/script.js" defer></script>
+        <title>Ejercicio 1</title>
+    </head>
+    <body>
+        <h1>Crea un objecte</h1>
+        <p>Quina figura vols crea</p>
+        <select name="figura" id="figura" onclick="modificarFormulario()">
+            <option value="Circulo" selected>Circulo</option>
+            <option value="Cuadrado">Cuadrado</option>
+            <option value="Triangulo">Triangulo</option>
+        </select>
+
+        <div id="form">
+            <div id="div1">
+                <span id="span1">radio: </span> <input type="number" id="num1" />
+            </div>
+            <div id="div2" hidden>
+                <span>altura: </span> <input type="number" id="num2" />
+            </div>
+        </div>
+        <button onclick="calcular()">Calcular</button>
+
+        <p id="Resultat"></p>
+    </body>
+</html>
